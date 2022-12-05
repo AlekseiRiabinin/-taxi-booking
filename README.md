@@ -13,3 +13,6 @@ Retail / E-commerce, Internet services, Internet shops, Business services [b2b] 
 - Numpy
 - Matplotlib
 - Seaborn
+
+## 4. Results
+To preprocess time-series data some methods are applied including time differencing and moving average for feature extraction. This helps avoid auto-correlation between attributes and define relationships between them. Eventually, Gradient Boosted Tree for both PySpark and Sklearn libraries provides RMSE as low as in range 43..45. Thus, predictions on the number of booked cabs are accurate enough.
